@@ -1,0 +1,14 @@
+@use '../util/' as *;
+
+.attribution {
+  font-size: rem(14);
+  text-align: center;
+
+  a {
+    color: var(--text-color2);
+    transition: color 200ms ease-in-out;
+    &:hover {
+      color: var(--light-text1);
+    }
+  }
+}
